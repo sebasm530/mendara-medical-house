@@ -1,0 +1,12 @@
+MENDARA - Recursos para landing
+
+Copiar la carpeta public/images al proyecto Next.js.
+
+IMPORTANTE:
+- Son renders, propuestas o imagenes de referencia. No presentarlos como fotos de obra terminada.
+- No se incluyen planos ni precios del brochure: estan desactualizados.
+- No se incluye logo vectorial oficial: solicitarlo al cliente.
+- No se incluye foto ni testimonio de la Dra. Fabiola: solicitar autorizacion.
+- Confirmar derechos de publicacion de las imagenes del manual de interiorismo y brochure.
+- Las versiones JPG son copias de las imagenes extraidas del PDF; WebP son las optimizadas.
+- Ver MANIFIESTO.json para origen y pagina de cada recurso.

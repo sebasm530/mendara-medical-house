@@ -1,0 +1,16 @@
+.layer { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.left, .right { position: absolute; inset-block: 0; width: var(--edge); overflow: hidden; }
+.left { left: 0; }
+.right { right: 0; }
+.image { position: absolute; max-width: none; height: auto; width: 320px; }
+.hero { --edge: min(7vw, 100px); }
+.hero .image { top: -24px; left: -80px; }
+.invitation, .form { --edge: clamp(24px, calc((100vw - 1280px) / 2 + 32px), 260px); }
+.invitation .image { top: 50%; left: -100px; transform: translateY(-50%); }
+.form .image { bottom: -36px; left: -100px; filter: blur(0.7px); }
+.footer { --edge: clamp(64px, calc((100vw - 1060px) / 2), 230px); }
+.footer .image { width: 440px; bottom: -24px; }
+.footer .left .image { left: -52px; }
+.footer .right .image { right: -52px; }
+/* Preserve the approved reading area on narrow viewports. */
+@media (max-width: 899px) { .layer { display: none; } }

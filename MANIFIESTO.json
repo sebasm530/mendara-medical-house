@@ -1,0 +1,123 @@
+[
+  {
+    "file": "public/images/hero/recepcion-principal.webp",
+    "original_copy": "public/images/hero/recepcion-principal.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 15,
+    "dimensions": [
+      1600,
+      835
+    ],
+    "note": "Render propuesto; no fotografía final"
+  },
+  {
+    "file": "public/images/instalaciones/recepcion-vista-lateral.webp",
+    "original_copy": "public/images/instalaciones/recepcion-vista-lateral.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 16,
+    "dimensions": [
+      1600,
+      835
+    ],
+    "note": "Render propuesto"
+  },
+  {
+    "file": "public/images/instalaciones/sala-espera.webp",
+    "original_copy": "public/images/instalaciones/sala-espera.jpg",
+    "source_pdf": "MENDARA_Brochure_Luxury_2026(1).pdf",
+    "source_page": 3,
+    "dimensions": [
+      896,
+      1280
+    ],
+    "note": "Imagen de ambientación del brochure"
+  },
+  {
+    "file": "public/images/instalaciones/coffee-bar.webp",
+    "original_copy": "public/images/instalaciones/coffee-bar.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 27,
+    "dimensions": [
+      1600,
+      835
+    ],
+    "note": "Render propuesto"
+  },
+  {
+    "file": "public/images/instalaciones/fachada.webp",
+    "original_copy": "public/images/instalaciones/fachada.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 8,
+    "dimensions": [
+      1159,
+      869
+    ],
+    "note": "Propuesta de fachada, no estado construido"
+  },
+  {
+    "file": "public/images/instalaciones/bano-propuesta.webp",
+    "original_copy": "public/images/instalaciones/bano-propuesta.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 33,
+    "dimensions": [
+      978,
+      1304
+    ],
+    "note": "Render de propuesta"
+  },
+  {
+    "file": "public/images/consultorios/consultorio-amplio.webp",
+    "original_copy": "public/images/consultorios/consultorio-amplio.jpg",
+    "source_pdf": "MENDARA_Brochure_Luxury_2026(1).pdf",
+    "source_page": 3,
+    "dimensions": [
+      853,
+      873
+    ],
+    "note": "Imagen de referencia; equipamiento no garantizado"
+  },
+  {
+    "file": "public/images/consultorios/consultorio-privado.webp",
+    "original_copy": "public/images/consultorios/consultorio-privado.jpg",
+    "source_pdf": "MENDARA_Brochure_Luxury_2026(1).pdf",
+    "source_page": 3,
+    "dimensions": [
+      853,
+      918
+    ],
+    "note": "Imagen de referencia; equipamiento no garantizado"
+  },
+  {
+    "file": "public/images/consultorios/consultorio-editorial.webp",
+    "original_copy": "public/images/consultorios/consultorio-editorial.jpg",
+    "source_pdf": "MENDARA_Brochure_Luxury_2026(1).pdf",
+    "source_page": 7,
+    "dimensions": [
+      853,
+      603
+    ],
+    "note": "Imagen de referencia"
+  },
+  {
+    "file": "public/images/consultorios/consultorio-propuesta-1.webp",
+    "original_copy": "public/images/consultorios/consultorio-propuesta-1.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 38,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "note": "Render de propuesta; mobiliario no incluido"
+  },
+  {
+    "file": "public/images/consultorios/consultorio-propuesta-2.webp",
+    "original_copy": "public/images/consultorios/consultorio-propuesta-2.jpg",
+    "source_pdf": "Mendara Medical House(1).pdf",
+    "source_page": 39,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "note": "Render de propuesta; mobiliario no incluido"
+  }
+]

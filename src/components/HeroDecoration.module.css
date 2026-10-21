@@ -1,0 +1,32 @@
+.section { background: var(--ivory); }
+.section :global(.hero-inner) { position: relative; z-index: 1; }
+.section :global(.hero-copy) { min-width: 0; padding-block: 42px 36px; }
+.section :global(.hero-eyebrow) { width: auto; max-width: 42ch; text-align: left; margin-bottom: 0; }
+.section :global(h1) { overflow-wrap: break-word; }
+.rule { width: 48px; height: 1px; margin-block: 24px; background: var(--gold); }
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .section { min-height: 0; justify-content: flex-start; }
+  .section :global(.hero-copy) { width: 100%; max-width: 660px; margin-inline: auto; padding: 48px 40px; }
+  .section :global(.hero-image) { position: relative; inset: auto; z-index: auto; width: 100%; height: clamp(360px, 45vw, 480px); }
+  .section :global(.hero-image)::after { content: none; }
+  .section :global(.reception-image) { object-position: center; }
+}
+
+@media (min-width: 1200px) {
+  .section { min-height: clamp(600px, 39vw, 750px); }
+  .section :global(.hero-inner) { max-width: none; }
+  .section :global(.hero-copy) { width: 44%; padding: 56px 0 56px clamp(48px, 9.2vw, 184px); }
+  .section :global(h1) { font-size: clamp(2.7rem, 3.6vw, 4.2rem); }
+  /* A broad photographic layer preserves the desk and waiting area. Anchoring
+     the original render at its left edge keeps the wall mark beyond the title. */
+  .section :global(.hero-image) { left: 30%; right: 0; width: 70%; }
+  .section :global(.reception-image) { object-position: left 20%; }
+  .section :global(.hero-image)::after {
+    background: linear-gradient(90deg, var(--ivory) 0%,
+      #f7f3ebfa 9%, #f7f3ebed 14%, #f7f3ebb8 18%,
+      #f7f3eb52 22%, #f7f3eb00 25%);
+  }
+  .section :global(.hero-description) { max-width: 42ch; margin-top: 24px; }
+  .section :global(.visit-button) { margin-top: 28px; }
+}

@@ -1,0 +1,43 @@
+.composition { display: grid; grid-template-columns: minmax(0, 1fr); gap: 44px; max-width: 1280px; margin-inline: auto; padding: 40px 24px 48px; border-top: 1px solid var(--sand); }
+.location, .investment { min-width: 0; text-align: center; }
+.investment { padding-top: 36px; border-top: 1px solid var(--sand); }
+.financing { max-width: 700px; margin: 0 auto 28px; font-size: 15px; line-height: 1.7; }
+.title { color: var(--jungle); font-size: clamp(2rem, 3vw, 2.6rem); line-height: 1.04; }
+.address { display: flex; justify-content: center; align-items: flex-start; gap: 12px; margin-top: 23px; font-size: 13px; line-height: 1.65; }
+.address svg { flex-shrink: 0; color: var(--leaf); margin-top: 1px; }
+.mapSlot { display: flex; align-items: stretch; width: 100%; height: 450px; min-width: 0; margin: 28px auto 0; border-radius: 5px; overflow: hidden; background: var(--sand); }
+.mapFrame { display: block; flex: 1; width: 100%; height: 100%; min-width: 0; border: 0; }
+.mapPlaceholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; width: 100%; padding: 28px 20px; text-align: center; }
+.mapPlaceholder svg { color: #80683d; }
+.mapPlaceholder p { font-family: var(--font-editorial), Georgia, serif; color: var(--jungle); font-size: 1.8rem; line-height: 1.05; }
+.mapPlaceholder span { color: #665943; font-size: 11px; line-height: 1.6; }
+.terms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; margin: 28px 0; }
+.terms > div { display: flex; flex-direction: column; align-items: center; min-width: 0; }
+.terms > div:last-child { grid-column: 1 / -1; }
+.terms svg { flex-shrink: 0; margin-bottom: 9px; color: var(--leaf); }
+.terms dt { font-size: 11px; line-height: 1.5; }
+.terms dd { margin: 4px 0 0; font-family: var(--font-editorial), Georgia, serif; font-size: 1.4rem; line-height: 1.05; color: var(--jungle); }
+.terms strong { display: block; font-weight: 500; }
+.terms dd > span { display: block; font-family: var(--font-inter), sans-serif; margin-top: 5px; color: #625b50; font-size: 10px; line-height: 1.5; }
+.founder { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; gap: 16px; max-width: 900px; margin-inline: auto; padding: 21px 18px; background: var(--sand); border-radius: 5px; text-align: center; }
+.crown { display: grid; place-items: center; width: 45px; height: 45px; border: 1px solid var(--gold); border-radius: 50%; color: #80683d; }
+.founderLabel { margin-bottom: 6px; font-size: 9px; font-weight: 500; line-height: 1.5; letter-spacing: 0.15em; text-transform: uppercase; color: #705b36; }
+.founder h3 { color: var(--jungle); font-size: 1.7rem; line-height: 1; }
+.founder p:last-child { margin-top: 9px; font-size: 12px; line-height: 1.6; }
+@media (min-width: 600px) {
+  .composition { padding-inline: 48px; }
+  .terms { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; margin-block: 32px; }
+  .terms > div:last-child { grid-column: auto; }
+}
+@media (min-width: 1100px) {
+  .composition { gap: 48px; padding: 48px 56px; }
+  .investment { padding-top: 40px; }
+  .title { font-size: 2.2rem; }
+  .terms svg { margin-bottom: 9px; }
+  .terms dt { font-size: 10px; }
+  .terms dd { font-size: 1.3rem; }
+  .founder { padding: 19px 20px; }
+}
+.terms svg { transition: transform 280ms cubic-bezier(0.16, 1, 0.3, 1); }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) { .terms > div:hover svg { transform: translateY(-2px); } }
+@media (prefers-reduced-motion: reduce) { .terms svg { transition: none; } }

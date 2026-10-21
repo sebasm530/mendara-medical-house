@@ -1,0 +1,38 @@
+/* La suma de márgenes conserva la posición del contenido inferior del hero. */
+.wordmark.wordmark {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 360px;
+  height: 55.5px;
+  margin: 10px auto 22px;
+}
+
+/* Caja alfa no vacía: x=80..1721, y=31..870. Solo se excluye transparencia. */
+.frame {
+  position: relative;
+  flex-shrink: 0;
+  width: 170px;
+  aspect-ratio: 1642 / 840;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: -3.690476%;
+  left: -4.872107%;
+  width: 108.038977%;
+  height: auto;
+  max-width: none;
+}
+
+@media (min-width: 900px) {
+  .wordmark.wordmark {
+    height: 60.5px;
+    margin: 16px 0 22px;
+  }
+
+  .frame { width: 180px; }
+}

@@ -1,0 +1,14 @@
+.section { width: 100%; min-width: 0; background: var(--ivory); border-top: 1px solid var(--sand); }
+.left { min-width: 0; position: relative; overflow: hidden; padding: 44px 24px; background: var(--ivory); }
+.message { position: relative; z-index: 1; width: 100%; max-width: 960px; margin-inline: auto; text-align: center; }
+.label { margin-bottom: 13px; color: #80683d; font-size: 10px; font-weight: 600; line-height: 1.5; letter-spacing: 0.22em; text-transform: uppercase; }
+.message h2 { color: var(--jungle); font-size: clamp(2.45rem, 5vw, 3.4rem); line-height: 1.05; text-wrap: balance; }
+.rule { width: 58px; height: 1px; margin: 20px auto; background: var(--gold); }
+.message > p:last-child { max-width: 700px; margin-inline: auto; font-size: 14px; line-height: 1.75; }
+@media (min-width: 600px) {
+  .left { padding-inline: 48px; }
+}
+@media (min-width: 768px) {
+  .left { padding-block: 48px; }
+  .message > p:last-child { font-size: 15px; }
+}
